@@ -3,10 +3,10 @@ apiVersion: v1
 metadata:
   name: labels
   labels:
-    project: expense-1
+    project: expense
     module: backend
     environment: dev
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
