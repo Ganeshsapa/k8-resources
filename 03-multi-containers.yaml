@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: multi-pod
+metadata:
+  name: mutli-containers
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    environment: dev
+  - name: almalinux
+    image: almalinux:9
+    command: "sleep 100"
