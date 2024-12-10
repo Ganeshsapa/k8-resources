@@ -6,7 +6,6 @@ spec:
   container: 
   - name: nginx
     image: nginx
-    environment: dev
   - name: almalinux
     image: almalinux:9
     command: "sleep 100"
