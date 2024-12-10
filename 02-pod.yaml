@@ -6,4 +6,4 @@ spec:
   containers:
   #dokcer run -d --name niginx 
   - name: nginx
-    images: nginx
+    image: nginx
