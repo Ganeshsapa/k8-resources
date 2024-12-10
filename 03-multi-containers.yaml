@@ -3,7 +3,7 @@ kind: multi-pod
 metadata:
   name: mutli-containers
 spec:
-  containers:
+  container: 
   - name: nginx
     image: nginx
     environment: dev
