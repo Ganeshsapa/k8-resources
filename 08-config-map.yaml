@@ -1,0 +1,7 @@
+apiVersion
+kind: configMap
+metadata:
+  name: config-map
+data:
+  course: devops
+  duration: "120hrs"
