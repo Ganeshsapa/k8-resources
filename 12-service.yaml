@@ -7,7 +7,7 @@ spec:
     project: expense
     module: backend
     environment: dev
-  port:
+  ports:
   - name: nginx-svc-port
     protocol: TCP
     port: 80 #service port
